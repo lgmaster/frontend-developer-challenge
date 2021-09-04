@@ -1,7 +1,7 @@
 :root {
   --white: #ffffff;
   --red-100: #888888;
-  --red-900: ##707070;
+  --red-900: #707070;
   --shadow: rgba(0, 0, 0, 0.16);
 }
 
@@ -25,7 +25,7 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'FreeSans', sans-serif;
 }
 
 body,
@@ -33,7 +33,7 @@ input,
 select,
 textarea,
 button {
-  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'FreeSans', sans-serif;
   font-weight: 500;
 }
 
