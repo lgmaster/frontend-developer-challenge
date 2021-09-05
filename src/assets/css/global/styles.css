@@ -60,3 +60,17 @@ a {
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+.btn__primary {
+  background: transparent;
+  color: var(--red-100);
+  border: 1px solid var(--red-900);
+  border-radius: 0.25rem;
+  transition: background 0.2s;
+}
+
+.btn__primary:hover {
+  background: #707070;
+  color: #fff;
+  border: 1px solid #888888;
+}
