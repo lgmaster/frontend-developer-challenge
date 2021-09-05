@@ -2,7 +2,7 @@ let validateForm = (function() {
   validate.validators.presence.options = {message: "Campo obrigatório"};
   validate.validators.presence.message = "message"
 
-  let constraints = {
+  let constraintsNewsletter = {
     name: {
       presence: true
     },
@@ -24,7 +24,20 @@ let validateForm = (function() {
     }
   }
 
+  let constraintsShare = {
+    "namefriend": {
+      presence: true
+    },
+    "emailfriend": {
+      presence: true,
+      email: {
+        message: "Não é um e-mail válido"
+      }
+    }
+  }
+
   return {
-    config: constraints
+    configNewsletter: constraintsNewsletter,
+    configShare: constraintsShare
   }
 })()
