@@ -74,6 +74,7 @@
 .newsletter__section .radio__group {
   display: flex;
   align-items: center;
+  margin-top: 1.2rem;
 }
 
 .newsletter__section .radio__group label {
@@ -228,6 +229,6 @@
 
 .share__section form button {
   font-size: 1rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   padding: 0.6rem 5.4rem;
 }
