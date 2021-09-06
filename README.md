@@ -28,5 +28,6 @@ Foram concluídas as seguintes etapas:
 1. Feito em HTML, CSS e JS puro.
 2. Utilizado Module Pattern para organizar o código JS.
 3. ValidateJS e VMasker para validar os formulários.
+4. Utilizado [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) como padrão para os commits.
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
