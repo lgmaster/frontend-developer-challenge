@@ -1,0 +1,54 @@
+@media (max-width: 720px) {
+  .header__container {
+    background-image: -webkit-linear-gradient(77deg, #fff 22%, var(--red-900) 22%);
+  }
+
+  .header__content h1 {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .header__content nav ul li {
+    margin: 0.7rem 0.8rem;
+  }
+
+  .newsletter__section {
+    flex-direction: column;
+  }
+
+  .newsletter__section article:first-child,
+  .newsletter__section article:last-child {
+    max-width: 100%;
+  }
+
+  .newsletter__section article:first-child {
+    margin-bottom: 1.9rem;
+  }
+
+  .section__title {
+    grid-template-columns: 1fr 2.6fr 1fr;
+  }
+
+  .products__content {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .product__container {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .share__section form {
+    margin-top: 0.5rem;
+  }
+
+  .share__form_inputs {
+    flex-direction: column;
+  }
+
+  .share__form_inputs div {
+    max-width: 100%;
+  }
+}
