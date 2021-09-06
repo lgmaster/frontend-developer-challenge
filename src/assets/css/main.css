@@ -71,6 +71,10 @@
   color: var(--red-100);
 }
 
+.newsletter__section label:first-child {
+  margin-top: 0;
+}
+
 .newsletter__section .radio__group {
   display: flex;
   align-items: center;
