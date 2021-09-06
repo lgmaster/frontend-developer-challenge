@@ -2,8 +2,6 @@
   max-width: 100%;
   height: 25rem;
   position: relative;
-  background-image: -webkit-linear-gradient(85deg, #fff 22%, var(--red-900) 22%);
-  background-repeat: no-repeat;
 }
 
 .header__content {

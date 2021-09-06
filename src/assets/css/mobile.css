@@ -1,6 +1,11 @@
 @media (max-width: 720px) {
-  .header__container {
-    background-image: -webkit-linear-gradient(77deg, #fff 22%, var(--red-900) 22%);
+  .background__top {
+    background: linear-gradient(19deg, white 65%, var(--red-900) 61%);
+  }
+
+  .background__bottom {
+    height: 39rem;
+    background: linear-gradient(-6deg, var(--red-900) 33%, white 33%);
   }
 
   .header__content h1 {

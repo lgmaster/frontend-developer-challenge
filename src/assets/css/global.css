@@ -30,6 +30,7 @@ html {
 
 body {
   font-family: 'FreeSans', sans-serif;
+  position: relative;
 }
 
 body,
@@ -77,6 +78,24 @@ a {
   background: #707070;
   color: #fff;
   border: 1px solid #888888;
+}
+
+.background__top {
+  position: absolute;
+  height: 68rem;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(6deg, white 65%, var(--red-900) 61%);
+  z-index: -1;
+}
+
+.background__bottom {
+  position: absolute;
+  height: 48rem;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(-3deg, var(--red-900) 33%, white 33%);
+  z-index: -1;
 }
 
 form {
