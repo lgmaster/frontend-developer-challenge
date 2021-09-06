@@ -19,11 +19,11 @@ Foram concluídas as seguintes etapas:
 - [x] Site responsivo
 - [x] Hospedado utilizando o [Surge.sh](https://surge.sh/), pela facilidade e por ser free.
 
-## 🚀 Link para testar o projeto <nome_do_projeto>
+## 🚀 Link para testar o projeto Desafio FronEnd Customer Operations
 
 [Site hospedado](http://front-end-challenge-linx.surge.sh/)
 
-## 📫 Tecnologias e arquitetura utilizada no projeto <nome_do_projeto>
+## 📫 Tecnologias e arquitetura utilizada no projeto Desafio FronEnd Customer Operations
 
 1. Feito em HTML, CSS e JS puro.
 2. Utilizado Module Pattern para organizar o código JS.
