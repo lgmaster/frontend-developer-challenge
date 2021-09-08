@@ -1,4 +1,4 @@
-let Errors = (function () {
+const Errors = (function () {
   function showErrors(errors) {
     const errorsList = errors;
 

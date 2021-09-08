@@ -1,4 +1,4 @@
-let productsModule = (function () {
+const productsModule = (function () {
 
   let products = [];
   let nextPage = 'https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1';

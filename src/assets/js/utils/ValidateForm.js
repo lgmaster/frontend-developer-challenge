@@ -1,4 +1,4 @@
-let validateForm = (function() {
+const validateForm = (function() {
   validate.validators.presence.options = {message: "Campo obrigatório"};
   validate.validators.presence.message = "message"
 
